@@ -1,0 +1,198 @@
+https://code.visualstudio.com/ > Install
+https://nodejs.org/en/ > Install
+https://git-scm.com/downloads > Install
+https://github.com/ > Create Account
+https://github.com/Aakashdeveloper > Follow
+
+variable,function, loop , array,object
+
+NPM
+Basic NodeJS(in built)(Os,file,http)
+NodeJS(full Stack App) (Node-EJs-Mongo-Express)
+Third Party Api (Weather Api)
+Redis  > 6379
+ImageUpload(formidable)
+ImageUpload
+RedisWithMongo
+Node-Es6(.babel)
+MongoDb Basic >27017  (local/cloud)
+Zomato App backend
+Api with NodeJS(Rest)>1
+DashBoard(Crud)
+Swagger
+Testing
+Github
+--Deployment of app---
+render
+Pm2
+Nginx
+Jenkins
+Docker
+Email With Node(nodemailer)
+Login/Logout(JWT)
+Oauth(with github) (https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps)
+TelegramChat
+Oauth(with google)
+GraphQl API
+NodeJs with postgres
+Chatapp
+Paytm-Payment
+FIREBASE
+--------NOT---------
+React/Angular
+Html/css/jquery
+
+NodeJS
+> Single Threaded, Non Blocking, Async I/O
+
+Event loop based strcture
+> Open Source
+(Any body can contribute to development)
+
+npm > Node Package Manager
+2,320,475
+2,316,411
+
+JSON
+Package.JSON
+npm
+
+JSON > JavaScript Object Notation
+Way to Represenet the data
+Key:Value pair of data
+
+[
+    {
+        "name":"John",
+        "city":"Delhi"
+    },
+    {
+        "name":"Ankit",
+        "city":"Surat"
+    },
+    {
+        "name":"Neha",
+        "city":"Paris",
+        "subject":"FullStack"
+    }
+]
+
+/////Package.Json/////
+> Entry Point to application
+> Contains start, build,test
+> All the packages you are using in app
+> Meta Data (name,version,description)
+microservice(aws lambda)
+upload to s3 bucket
+//////
+Step To genereate package.Json
+//////
+* NodeJs must be installed in laptop
+> open the cmd / termianl
+> Go inside the folder where you want to genereate
+> npm init
+> answer all questions
+> type yes
+
+//////
+Step To install package
+//////
+* NodeJs must be installed in laptop
+> open the cmd / termianl
+> Go inside the folder where you want to genereate
+> npm i packagename / npm install packagename
+
+
+
+Day-1 https://youtu.be/QiJbEoBZgPM
+Day-2 https://youtu.be/LlNe4bAH_Q0
+Day-3 https://youtu.be/mJCa7LA9_g8
+Day-4 https://youtu.be/S6WzeTrP7JQ
+
+
+package.json > Main file
+node_mdoules > Contains packages
+package-lock > Dependency tree
+.gitignore > ignore all mention files/folder to push
+
+local Dependency
+> local to the folder
+> need to install for each folder
+> Can be used when application start
+
+Global Dependency
+> install in laptop irresepective of folder
+> only few package will go Global
+> need admin access to install
+> will not add in package.json
+> only require for development
+
+
+//////
+> open cmd as administartor
+> npm i -g nodemon
+
+//mac/linux
+> open termianl
+> sudo npm i -g nodemon
+
+//es5
+function add(a,b){
+    return a+b
+}
+
+//es6
+let add = (a,b) => { return a+b }
+
+GET > When server send you some data
+POST
+PUT/PATCH
+DELETE
+
+
+SHUBHAM 7337313415
+Nodejs JS  By Mr. Aakash @ 7:00 AM
+
+////////////////////////////////////////////////////////////////
+Params
+> What you pass after /
+> we need to define the param before using it
+> If define than it is complusory to pass
+> Should be use for 1 to 2 values
+
+QueryParams
+> What you pass after ?
+> no need to define
+> not complusory to pass
+> can be use to pass multiple values
+
+
+https://api.openweathermap.org/data/2.5/forecast/daily?q=Mumbai&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29
+
+
+KEYS *
+set marks 344
+get marks
+del marks
+FlushAll
+set marks 233 ex 3000
+
+
+cors> cross origin resource sharing
+
+/////
+open cmd as admin
+> npm i -g pm2
+
+pm2 start filename
+pm2 start filename -i cpus
+pm2 status
+pm2 stop filename
+
+
+dummy api
+> npm i -g json-server
+> json-server --watch db.json --port 8700
+
+Interview
+> https://github.com/Aakashdeveloper/Node-Interview-Question

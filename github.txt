@@ -1,0 +1,79 @@
+1. Repository name should same as username.
+
+// git folder is hidden ---->>> (Go to Organize --> Files and Search Options --> and then check Show Hidden Files.)
+
+// copy the origin url from code -- SSH ---> git@github.com:Monalisa-developer98/nodeweather.git
+
+https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
+
+// first time from new folder
+git init
+git add .   ------------------------------ this is to add all the files
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Aakashdeveloper/nodeweather.git
+git push -u origin main
+
+
+// next time from same folder
+git add .
+git commit -m "first commit"
+git push
+
+
+
+
+// Inorder to go live we should have 2 things.
+
+1. start command in package.json
+2. process.env.port file
+
+// make live
+1. website ---- render.com
+// deply app in render.com by registering through github.
+
+--- (live url) ------> https://weatherapp-i0pm.onrender.com/weather?city=Delhi 
+
+2. PM2 is a free and open-source process manager for Node. js applications. It is used to monitor the Node. js application and keep it alive 24/7. It allows you to start, stop, and restart the Node.
+// PM2 should be install globally.
+Render is a fully-managed cloud platform where you can host static sites, backend APIs, databases, cron jobs, and all your other apps in one place. Static sites are completely free on Render and include the following: Continuous, automatic builds & deploys from GitHub and GitLab
+
+// pm2 commands -- pm2 stop apiwithui.js
+pm2 start filename
+pm2 start filename -i cpus
+pm2 status
+pm2 stop filename
+
+// Jenkins
+Jenkins is an open source automation server. 
+It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration, and continuous delivery. 
+It is a server-based system that runs in servlet containers such as Apache Tomcat.
+It automatically deploy.
+
+// Nginx
+Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.
+
+// for Jenkins -- files required ---- ///
+1. Jenkinsfile -----> helps us to particularly make that jenkin pipeline.
+2. nginx.conf ----->  where we will tell what exactly to run.
+
+
+// see the PM2 installation process from 'extra.txt' file from github
+
+
+
+
+
+--------------------  (useful urls)  ------------------------
+
+1. https://github.com/Aakashdeveloper/Node_mrng_23/blob/master/dashboard/test/second.test.js
+2. https://github.com/Aakashdeveloper/Node_mrng_23/blob/master/github
+3. https://github.com/Aakashdeveloper/Node_mrng_23/blob/master/extra
+4. http://localhost:6722/
+5. https://github.com/Aakashdeveloper/aug_node_eveng_23/
+6. https://github.com/Aakashdeveloper/aug_node_eveng_23/blob/main/github
+7. https://github.com/Monalisa-developer98
+
+
+8. make live----> https://dashboard.render.com/web/srv-ck3hhquru70s73dt9tpg/deploys/dep-ck3hhr6ru70s73dt9v8g
+9. live url ----> https://weatherapp-i0pm.onrender.com/weather?city=Delhi

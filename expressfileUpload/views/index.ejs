@@ -1,0 +1,20 @@
+ <!-- form -->
+
+ <html>
+    <head>
+        <title>Express Form</title>
+    </head>
+    <body>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="imgName" id="imgName">
+            </div>
+            <div>
+                <label for="image">Image</label>
+                <input type="file" name="image" id="image">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+ </html>
